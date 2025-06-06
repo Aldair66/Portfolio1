@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio de Aldair</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
   <header>
-    <h1>Aldair - Desenvolvedor Web & Editor Multimédia</h1>
+    <h1>Aldair - Engenheiro Informático e de Telecomunicações</h1>
     <nav>
       <ul>
         <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#iniciativas">Iniciativas</a></li>
+        <li><a href="#competencias">Competências</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
@@ -19,27 +23,68 @@
   </header>
 
   <section id="sobre">
-    <h2>Sobre mim</h2>
-    <p>Sou um estudante de Engenharia Informática e Telecomunicações com paixão por desenvolvimento web e edição de vídeo/áudio.</p>
+    <h2><i class="fas fa-user"></i> Sobre mim</h2>
+    <p>Engenheiro Informático e de Telecomunicações, com formação na Universidade Técnica do Atlântico. Cabo-verdiano de 24 anos, apaixonado por tecnologia, com espírito inovador e experiência prática em soluções em nuvem, desenvolvimento web e inteligência artificial.</p>
+    <a href="CV_Aldair.pdf" class="btn-download" download><i class="fas fa-download"></i> Baixar CV</a>
+  </section>
+
+  <section id="experiencia">
+    <h2><i class="fas fa-briefcase"></i> Experiência</h2>
+    <h3>YAM IT Consulting CV (Durante 2 anos)</h3>
+    <p>Empresa sediada em São Vicente, especializada em consultoria em tecnologia da informação, com foco em soluções em nuvem, segurança e remodelação de redes locais.</p>
+    <ul>
+      <li>Implantação e gestão de recursos Azure usando o Portal, Terraform e Bicep.</li>
+      <li><strong>Projeto UTA (8 meses):</strong> remodelação e segurança da infraestrutura de rede (APs, WLCs, switches).</li>
+      <li><strong>Projeto Enterprise GPT (6 meses):</strong> desenvolvimento de plataforma de IA para gestão segura de ficheiros e colaboração.</li>
+    </ul>
+  </section>
+
+  <section id="iniciativas">
+    <h2><i class="fas fa-lightbulb"></i> Iniciativas e Programas</h2>
+    <ul>
+      <li><strong>Bolsa Cabo Verde Digital (mar-jul 2023):</strong> Co-fundador da plataforma de compras online CVX.</li>
+      <li><strong>Seeds for the Future (Huawei, jul-set 2022):</strong> Participação com certificado de conclusão.</li>
+    </ul>
+  </section>
+
+  <section id="competencias">
+    <h2><i class="fas fa-code"></i> Competências Técnicas</h2>
+    <p>C, Java, Python, Kotlin, React, Bicep, Terraform, Azure, PostgreSQL</p>
   </section>
 
   <section id="projetos">
-    <h2>Projetos</h2>
+    <h2><i class="fas fa-folder-open"></i> Projetos</h2>
+
     <div class="projeto">
-      <h3>Remodelação da Rede do ISECMAR</h3>
-      <p>Reestruturação da rede para segurança e eficiência, incluindo instalação de WLC, APs e switches.</p>
+      <h3>Atlantic Technical University (UTA) (8 meses)</h3>
+      <ul>
+        <li>Remodelação e segurança da infraestrutura de rede da universidade.</li>
+        <li>Instalação e configuração de Access Points (APs), Wireless LAN Controllers (WLCs) e switches.</li>
+      </ul>
     </div>
+
     <div class="projeto">
-      <h3>Site de Apostas JackpotBet</h3>
-      <p>Integração de jogos com *seamless wallet* em *PHP* e *XML*.</p>
+      <h3>Enterprise GPT (6 meses)</h3>
+      <ul>
+        <li>Desenvolvimento de uma plataforma de IA para gestão segura de ficheiros e colaboração.</li>
+        <li>Criação de espaços de trabalho, organização por pastas e tópicos, integração de IA para responder perguntas com base nos conteúdos.</li>
+        <li>Uso de React, PostgreSQL e Azure tanto no frontend quanto no backend.</li>
+      </ul>
     </div>
-    <!-- Outros projetos -->
+
+    <div class="projeto">
+      <h3>JackpotBet (2024)</h3>
+      <ul>
+        <li>Melhorias na interface e correção de falhas nos fluxos de apostas.</li>
+        <li>Monitoramento da infraestrutura com ELK Stack (Elasticsearch, Logstash, Kibana) e alerta de falhas do servidor.</li>
+        <li>Automatização da coleta de logs com Filebeat e visualizações no Kibana.</li>
+      </ul>
+    </div>
   </section>
 
   <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Email: aldair@email.com</p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/aldair</a></p>
+    <h2><i class="fas fa-envelope"></i> +2385994480</h2>
+    <p><i class="fas fa-envelope"></i> aeasantos1965@gmail.com</p>
   </section>
 
   <footer>
